@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html  lang="it">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Lim-Home</title>
+  </head>
+  <body>
+    
+    <!-- Contenitore body -->
+    <div class="container">
+
+      <!-- Header con logo -->
+      <header>
+        <img id="logo" src="logo.png">
+        <span>Taking Booleaners from A to B</span>
+      </header>
+
+      <!-- Menu navigazione -->
+      <nav>
+          <button type="button" name="prenota">Prenota</button>
+          <button type="button" name="termina">Termina Prenotazione</button>
+          <button type="button" name="luci">Accendi Luci</button>
+      </nav>
+
+      <!-- Main - Lim disponibili con stato carica batteria-->
+      <main>
+
+        <section class="scooter">
+          <input type="checkbox" name="scooter-select" value="booked">
+          <span class="scooter-name">Monopattino Gino22</span>
+          <span class="distance"><span class="arrow"> </span>Via Guadalametri - a <span class="metri">220</span> metri da te</span>
+          <div>Stato carica: </div>
+          <div class="med-bar"></div>
+        </section>
+
+        <section class="scooter">
+          <input type="checkbox" name="scooter-select" value="booked">
+          <span class="scooter-name">Monopattino Mike24</span>
+          <span class="distance"><span class="arrow"> </span>Via Ricciardoni - a <span class="metri">420</span> metri da te</span>
+          <div>Stato carica: </div>
+          <div class="full-bar"></div>
+        </section>
+
+        <section class="scooter">
+          <input type="checkbox" name="scooter-select" value="booked">
+          <span class="scooter-name">Monopattino Fede154</span>
+          <span class="distance"><span class="arrow"> </span>Via Mentarini - a <span class="metri">490</span> metri da te</span>
+          <div>Stato carica: </div>
+          <div class="low-bar"></div>
+        </section>
+
+      </main>
+    </div>
+  </body>
+</html>
